@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Html Form</h1>
+    <div>
+        <form action="" target="_blank" autocomplete="on" method="get" novalidate>
+            <!-- get=url a data dekhabe ,post=dekhabe na , autocomplete=previous value suggest kore,validate :kono kisu fill up na koreo submit kora-->
+            <label for="name">Name:</label>
+            <input value="anas"type="text" name="Username" id="name" placeholder="Enter Your Name"><br>
+            <label for="email">Email:</label>
+            <input type="email" name="Usermail" id="email" required><br>
+            <label for="dob">DOB:</label><br>
+            <input type="date" name="DOB" id="dob"><br>
+            <label for="pass">Password:</label><br>
+            <input type="password" name="Password" id="pass"><br>
+            <label for="complain">Complain Box:</label><br>
+            <textarea name="complain" id="complain" rows="10"cols="10"></textarea><br><br>
+            <input type="submit">
+            <input type="color">
+            <!-- <button type="submit">Submit</button> -->
+            
+        </form>
+    </div>
+
+
+
+    <div>
+        <h1>Dropdownbox</h1>
+        <form>
+            <label for="country">Country:</label>
+            <select id="country" name="country"size="1" multiple>
+                <option value="">Select country</option>
+                <option value="Bangladesh">BD</option>
+                <option value="Pakistan">PK</option>
+                <option value="Saudi Arabia">SA</option>
+                <option value="Afganistan">AFG</option>
+            </select>
+        </form>
+
+    </div>
+
+   <div>
+        <h1>Radio Button</h1>
+        <form>
+            <input type="radio" name="Gender" id="Male">
+            <label for="Male">Male</label><br>
+            <input type="radio" name="Gender" id="female">
+            <label for="female">Female</label>   
+        </form>
+
+    </div>
+    
+    <div>
+        <h1>CheckBox</h1>
+        <form>
+            <input type="checkbox" name="language" id="java">
+            <label for="java">Java</label><br>
+            <input type="checkbox" name="language" id="C">
+            <label for="C">C</label> <br> 
+            <input type="checkbox" name="language" id="python">
+            <label for="python">Python</label> 
+            
+            
+
+            <h2>The button Element</h2>
+            <button type="button" onclick="alert('Hello World!')">Click Me!</button> 
+            
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John" size="40" disabled ><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe" readonly>
+
+            <label for="files">Select files:</label>
+            <input type="file" id="files" name="files" multiple><br><br>
+
+            
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" max="100" min="18">
+            <!-- input attribute:
+            type,name,id,value,size,max,min,readonly,disabled,multiple -->
+        </form>
+
+    </div>
+
+
+    
+
+    
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label,textarea,select{
+            display: block;
+            margin: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Advance Form</h1><br><br>
+
+  
+    <div>
+        <h2> Create Form</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your Email">
+            <label for="text">Text</label>
+            <textarea name="text" id="text" placeholder="Enter your message" rows="5" cols="50"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <!--Dropdown-->
+    
+    <div>
+        <h1> Dropdown</h1>
+        <form>
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="">Select Your country</option>
+                <option value="USA">USA</option>
+                <option value="UK">United Kingdom</option>
+                <option value="BD">Bangladesh</option>
+                <option value="Canada">Canada</option>
+            </select>
+        </form>
+    </div>
+
+    <!--Radio button-->
+    
+    <div>
+        <h2>Radio Button</h2>
+        <label>
+            <input type="radio" name="gender" id="male" value="male">Male
+        </label>
+        <label>
+            <input type="radio" name="gender" id="female" value="female">Female
+        </label>
+
+    </div>
+
+    <!--Checkbox-->
+
+    <div>
+        <h2>Checkbox</h2>
+        <form>
+            <label>
+                <input type="checkbox" name="skills" value="nextjs">Next Js
+            </label>
+            <label>
+                <input type="checkbox" name="skills" value="js">Javascript
+            </label>
+            <label>
+                <input type="checkbox" name="skills" value="html">HTML
+            </label>
+            <label>
+                <input type="checkbox" name="skills" value="css">CSS
+            </label>
+            <label>
+                <input type="checkbox" name="skills" value="php">PHP
+            </label>
+        </form>
+    </div>
+</body>
+</html>
